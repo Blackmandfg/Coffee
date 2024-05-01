@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -34,6 +38,8 @@ code {
     --blue-light: #B5EAEE;
     --black: #2C261F;
     --white: #FFFFFF;
+    --Nunito-sans:Nunito Sans, serif;
+    --Playfair-Display:Playfair Display, serif;
 }
 
 /* Reset Margins and Paddings */
@@ -46,7 +52,9 @@ code {
 header {
     grid-column: 1 / -1;
 }
-
+.grid-column {
+    grid-column: 1 / -1;
+}
 #header {
     display: flex;
     flex-direction: row;
@@ -92,16 +100,21 @@ header {
 }
 
 .h2feedbacks {
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
     line-height: 120%;
     color: var(--white);
 }
-
+.fontnunito{
+    font-family: var(--Nunito-sans);
+}
+.fontplayfair{
+    font-family: var(--Playfair-Display);
+}
 .pfeedbacks {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -146,7 +159,7 @@ header {
 }
 
 .h2contacts {
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 60px;
@@ -165,7 +178,7 @@ header {
 }
 
 .pcontacts {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
@@ -175,7 +188,7 @@ header {
 }
 
 .h3contacts {
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 27px;
@@ -195,7 +208,7 @@ header {
 #onas {
     width: 105px;
     height: 49px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -207,7 +220,7 @@ header {
     text-indent: 120px;
     width: 1050px;
     height: 147px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -216,7 +229,7 @@ header {
 }
 
 .jasminedragonheader {
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -233,7 +246,7 @@ header {
 .h3footer {
     width: 285px;
     height: 32px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
@@ -242,7 +255,7 @@ header {
 }
 
 .pfooter {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -276,7 +289,7 @@ header {
 }
 
 .inputfooter::placeholder {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -286,7 +299,7 @@ header {
 }
 
 .buttonfooter {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -320,7 +333,7 @@ header {
     align-items: end;
     justify-items: start;
     background-color: transparent;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -339,7 +352,7 @@ header {
 }
 
 .viborka {
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -369,7 +382,7 @@ header {
 }
 
 .linkfooter {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -382,7 +395,7 @@ header {
 .language {
     display: flex;
     flex-direction: row;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
@@ -426,14 +439,18 @@ header {
 #ded2 {
     display: flex;
     align-items: center;
-    margin-left: 34%;
+    margin-left: 36.50%;
     gap: 25px;
 }
-
-#ded3 {
-    margin-left: auto;
+.ded2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100px; /* Расстояние от правой границы элемента */
+    height: 100%;
+    width: 10px; /* Ширина линии */
+    background-color: black; /* Цвет линии */
 }
-
 .center {
     display: flex;
     align-items: center;
@@ -476,9 +493,7 @@ header {
 }
 
 .h1sec2-1 {
-    width: 300px;
-    height: 49px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -490,7 +505,7 @@ header {
 .p1sec2-1 {
     width: 545px;
     height: 138px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -521,7 +536,7 @@ header {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .flexrow {
@@ -557,7 +572,7 @@ header {
 }
 
 .h2sec3 { /* Смузи */
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 27px;
@@ -569,7 +584,7 @@ header {
 }
 
 .p2sec3 {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -590,7 +605,7 @@ header {
     padding: 25px 145px;
     background-color: transparent;
     border: 2px solid var(--blue-light);
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 27px;
@@ -604,7 +619,7 @@ header {
     display: flex;
     align-items: center;
     padding: 15px 50px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -615,35 +630,24 @@ header {
 }
 
 #h1 {
-
-    width: 586px;
-    height: 146px;
-
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 60px;
     line-height: 120%;
     color: var(--blue-light);
-
 }
-
+#cup2{
+    width: 804px;
+    height: 585px;}
 #h3 {
-    /* Всегда рады Вас видеть в Jasmine Dragon */
-
     width: 518px;
     height: 36px;
-
-    /* H Decorative/H5 (1.5rem) */
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 27px;
     line-height: 36px;
-    /* identical to box height */
-    text-align: center;
-
-    /* White */
     color: var(--blue-light);
 }
 
@@ -654,7 +658,7 @@ header {
     height: 115px;
 
     /* P/P1 ( 1rem ) */
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -678,7 +682,19 @@ header {
     color: var(--blue-light);
     background-color: transparent;
 }
-
+.colorforborder{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+    margin-top: 50px;
+    gap: 10px;
+    height: 54px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: var(--blue-light);
+    align-self: stretch;
+}
 #button2 {
     padding: 25px 120px 25px 120px;
 }
@@ -686,7 +702,7 @@ header {
 .button3 {
     background-color: transparent;
     padding: 25px 100px 25px 100px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 27px;
@@ -759,23 +775,32 @@ header {
     gap: 15px;
     padding-left: 25px;
     background-color: transparent;
-
-    /* P/P1 Semibold   ( 1rem ) */
     font-family: Nunito Sans, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 130%;
-
     color: var(--blue-light);
     border: 1px var(--blue-light) solid;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+.fortext{
+    font-family: var(--Nunito-sans);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--blue-light);
+    transition: color 0.3s ease;
+}
+.fortext:hover a{
+    color: var(--blue);
+}
 #ded3 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 120px;
     gap: 5px;
     /* P/P1 Semibold   ( 1rem ) */
     font-family: Nunito Sans, sans-serif;
@@ -806,12 +831,13 @@ header {
     background-color: var(--blue-light);
     border-radius: 50%;
     top: 40px;
-    left: 1207px;
+    left: 1280px;
+
 }
 
 .numberofitems {
     display: flex;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -826,7 +852,7 @@ header {
     position: absolute;
     width: 30%;
     height: 462px;
-    left: 20px;
+    left: 125px;
     top: 0;
     background: linear-gradient(0deg, rgba(39, 62, 64, 0.1), rgba(39, 62, 64, 0.1)), #D9D9D9;
 }
@@ -835,7 +861,7 @@ header {
     position: absolute;
     width: 30%;
     height: 299px;
-    right: 20px;
+    right: 125px;
     top: 331px;
     background: linear-gradient(0deg, rgba(39, 62, 64, 0.1), rgba(39, 62, 64, 0.1)), #D9D9D9;
 }
@@ -850,9 +876,9 @@ header {
     position: absolute;
     width: 1447px;
     height: 327px;
-    left: 8%;
+
     top: 630px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 600;
     font-size: 91px;
@@ -907,7 +933,7 @@ body {
     align-items: center;
     background-color: transparent;
     border: 2px solid var(--blue-light);
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -920,6 +946,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 50px;
+    gap: 25px;
 }
 
 .svgchoise {
@@ -978,7 +1005,7 @@ body {
 }
 
 .assortinum {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1023,6 +1050,9 @@ body {
     border: 1px var(--blue) solid;
 }
 
+.fortext:hover{
+color: var(--blue);
+}
 .linksfeedbacks {
     display: flex;
     flex-direction: row;
@@ -1048,7 +1078,7 @@ body {
 }
 
 .textfeedback {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1103,29 +1133,28 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
     line-height: 120%;
-    text-align: center;
-    padding: 25px 80px 25px 80px;
+    padding: 25px 75px 25px 80px;
     color: var(--blue-light);
     gap: 25px;
     background-color: var(--green-light);
     border: 2px solid var(--blue-light);
+    flex-wrap: nowrap;
 }
 
 .discount {
-    width: 51px;
-    height: 16px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 130%;
     text-align: center;
     text-decoration-line: line-through;
+    flex-wrap: nowrap;
     color: var(--blue-light);
 }
 
@@ -1137,7 +1166,7 @@ body {
 .h1choise {
     width: 413px;
     height: 49px;
-    font-family: Playfair Display, serif;
+    font-family: var(--Playfair-Display);
     font-style: italic;
     font-weight: 500;
     font-size: 40px;
@@ -1151,7 +1180,7 @@ body {
 .p1choise {
     width: 413px;
     height: 69px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -1190,7 +1219,7 @@ body {
 }
 
 .psortmenu {
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1226,7 +1255,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    font-family: Nunito Sans, serif;
+    font-family: var(--Nunito-sans);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1255,7 +1284,7 @@ body {
 
 .row1sort {
     display: flex;
-    justify-content: space-between;
+
     flex-direction: row;
     gap: 50px;
 }

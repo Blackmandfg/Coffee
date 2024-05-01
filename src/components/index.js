@@ -1,6 +1,4 @@
-import Header from "./Header/Header";
 import Filters from "./Filters/Filters";
-import Footer from "./Footer/Footer";
 import Choise from "./Choise/Choise";
 import Flexrow from "./Flexrow/Flexrow";
 import Pagination from "./Pagination/Pagination";
@@ -9,5 +7,9 @@ import Store from "./Store/Store";
 import Hotsales from "./Hotsales/Hotsales";
 import Contacts from "./Contacts/Contacts";
 import Feedback from "./Feedback/Feedback";
-
-export {Header, Filters, Footer, Choise, Flexrow, Pagination, Lables, Store, Hotsales, Contacts, Feedback}
+import Footerblock1 from "./Footerblock1/Footerblock1";
+import Footerbuttons1 from "./Footerbuttons1/Footerbuttons1";
+import Footerbuttons2 from "./Footerbuttons2/Footerbuttons2";
+import Lines from "./Lines/Lines";
+import Header from "./Header/Header";
+export { Filters, Lines, Header, Footerblock1, Footerbuttons1, Footerbuttons2,  Choise, Flexrow, Pagination, Lables, Store, Hotsales, Contacts, Feedback}

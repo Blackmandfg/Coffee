@@ -6,6 +6,7 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import {Main} from "./Pages";
+import Teas_menu from "./Pages/teas_menu/teas_menu";
 
 const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
         path: "*",
         element: <p>404</p>
+    },
+    {
+        path: "/teas-menu",
+        element: <Teas_menu/>
     },
 ]);
 
