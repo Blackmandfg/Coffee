@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import {Main} from "./Pages";
 import Teas_menu from "./Pages/teas_menu/teas_menu";
+import Dishes from "./components/Dishes/Dishes";
+import Teas from "./Pages/teas/teas";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
     {
         path: "/teas-menu",
         element: <Teas_menu/>
+    },
+    {
+        path: "/teas/:id",
+        element: <Teas/>
+    },
+    {
+        path: "/dishes/:id",
+        element: <Dishes/>
     },
 ]);
 
