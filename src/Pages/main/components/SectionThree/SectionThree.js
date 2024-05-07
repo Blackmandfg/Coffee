@@ -1,6 +1,6 @@
 import {
     Filters,
-    Choise,
+    // Choise,
     Flexrow,
     Pagination,
     Lables,
@@ -16,7 +16,6 @@ const SectionThree = () => {
             <h1 className="h1sec2-1">Меню</h1>
             <Flexrow/>
             <Filters/>
-            <Choise/>
             <Pagination/>
             <Lables/>
             <Store/>
