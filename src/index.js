@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 import {Main} from "./Pages";
 import Teas_menu from "./Pages/teas_menu/teas_menu";
-import Dishes_menu from './Pages/Dishes-menu/dishes_menu';
-import SelectedMenu from './Pages/Selected/selected';
+import Dishes from "./components/Dishes/Dishes";
+import Teas from "./Pages/teas/teas";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -23,12 +24,12 @@ const router = createBrowserRouter([
         element: <Teas_menu/>
     },
     {
-        path: "/dishes-menu",
-        element: <Dishes_menu/>
+        path: "/teas/:id",
+        element: <Teas/>
     },
     {
-        path: "/selected",
-        element: <SelectedMenu/>
+        path: "/dishes/:id",
+        element: <Dishes/>
     },
 ]);
 
