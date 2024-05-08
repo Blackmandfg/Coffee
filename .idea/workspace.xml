@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57762317-bc81-462e-8851-3b000d187468" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Sort/Sort.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui-kit/icons/HeartIcon2/HeartIcon2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui-kit/icons/Telejca/Telejca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/main/components/SectionThree/SectionThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/main/components/SectionThree/SectionThree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Choise2/Choise2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Choise2/Choise2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filters/Filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filters/Filters.js" afterDir="false" />
+    <list default="true" id="57762317-bc81-462e-8851-3b000d187468" name="Changes" comment="last update 3:34 night">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/BrewBlock/BrewBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/DescriptionBlock/DescriptionBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/ImagesComponent/ImagesComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/InstructionBlock/InstructionBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/LastReview/LastReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/teas/teas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dishes/Dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/firebase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui-kit/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui-kit/Counter/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui-kit/FavoriteButton/FavoriteButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui-kit/icons/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui-kit/icons/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +42,22 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2g84A3KQkmyVN9K5auuDZIyaUgI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging IuraBranch",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,5 +70,12 @@
       <workItem from="1715065876986" duration="24000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last update 3:34 night" />
+    <option name="LAST_COMMIT_MESSAGE" value="last update 3:34 night" />
   </component>
 </project>
