@@ -12,4 +12,8 @@ import Footerbuttons1 from "./Footerbuttons1/Footerbuttons1";
 import Footerbuttons2 from "./Footerbuttons2/Footerbuttons2";
 import Lines from "./Lines/Lines";
 import Header from "./Header/Header";
-export { Filters, Lines, Header, Footerblock1, Footerbuttons1, Footerbuttons2,  Choise, Flexrow, Pagination, Lables, Store, Hotsales, Contacts, Feedback}
+import DropdownButton from "./DropDown/DropdownButton";
+import Choise2dish from "./Choise2dish/Choise2dish";
+import Choisedish from "./Choisedish/Choisedish";
+import Filterdish from "./Filterdish/Filterdish";
+export { Filters,Filterdish,Choisedish,DropdownButton,Choise2dish, Lines, Header, Footerblock1, Footerbuttons1, Footerbuttons2,  Choise, Flexrow, Pagination, Lables, Store, Hotsales, Contacts, Feedback}

@@ -1,11 +1,11 @@
 import React from 'react';
-import {mock} from "../../config/constants";
+import {mock2} from "../../config/constants";
 import {HeartIcon2, Telejca} from "../../ui-kit/icons";
 
-const Choise2 = () => {
+const Choise2dish = () => {
     return (
         <div className="choise2">
-            {mock.map((item) => <div key={Math.random()} className="choosen2">
+            {mock2.map((item) => <div key={Math.random()} className="choosen2">
                 <img className="svgchoise2" src={item.image} alt="teagreen"/>
                 <svg className="likefavorite2" width="48" height="49" viewBox="0 0 48 49" fill="none"
                      xmlns="http://www.w3.org/2000/svg">
@@ -33,4 +33,4 @@ const Choise2 = () => {
     );
 };
 
-export default Choise2;
+export default Choise2dish;

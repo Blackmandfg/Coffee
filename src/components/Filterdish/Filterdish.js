@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import Choise from "../Choise/Choise";
-import Choise2 from "../Choise2/Choise2";
-import Sort from "../Sort/Sort";
-import { DropdownButton } from '..';
-const Filters = () => {
+import Sort from '../Sort/Sort';
+import { Choise2dish, Choisedish, DropdownButton } from '..';
+const Filterdish = () => {
     const [isHorizontal, setIsHorizontal] = useState(true); // Состояние для отслеживания текущего вида товаров
     const [isActive, setIsActive] = useState(false);
     const toggleHorizontalView = () => {
@@ -99,13 +97,13 @@ const Filters = () => {
                     </button>
                 </div>
                 {isHorizontal ? (
-                    <Choise/>
+                    <Choisedish/>
                 ) : (
-                    <Choise2/>
+                    <Choise2dish/>
                 )}
             </div>
 
 
         );
 }
-export default Filters;
+export default Filterdish;

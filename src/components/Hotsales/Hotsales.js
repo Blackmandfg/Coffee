@@ -1,4 +1,4 @@
-import {mock} from "../../config/constants";
+import {mock2} from "../../config/constants";
 
 const Hotsales = () => {
     return (
@@ -10,7 +10,7 @@ const Hotsales = () => {
                 <button className="buttonhotsale">Посуда</button>
             </div>
             <div className="sorthotsale">
-                {mock.slice(0, 3).map((item) => <div key={Math.random()} className="choosen">
+                {mock2.slice(0, 3).map((item) => <div key={Math.random()} className="choosen">
                     <img className="svgchoise" src={item.image} alt="teagreen"/>
                     <svg className="likefavorite" width="48" height="49" viewBox="0 0 48 49" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
