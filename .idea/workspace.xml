@@ -5,32 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57762317-bc81-462e-8851-3b000d187468" name="Changes" comment="last update 3:34 night">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/BrewBlock/BrewBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/DescriptionBlock/DescriptionBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/ImagesComponent/ImagesComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/InstructionBlock/InstructionBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/components/LastReview/LastReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/teas/teas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/Frame.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dishes/Dishes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui-kit/Breadcrumbs/Breadcrumbs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui-kit/Counter/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui-kit/FavoriteButton/FavoriteButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,8 +42,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging IuraBranch",
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

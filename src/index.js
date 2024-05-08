@@ -9,6 +9,8 @@ import {Main} from "./Pages";
 import Teas_menu from "./Pages/teas_menu/teas_menu";
 import Dishes from "./components/Dishes/Dishes";
 import Teas from "./Pages/teas/teas";
+import Dropdown from "./ui-kit/Dropdown/Dropdown";
+import {mock3} from "./config/constants";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +32,10 @@ const router = createBrowserRouter([
     {
         path: "/dishes/:id",
         element: <Dishes/>
+    },
+    {
+        path: "/ui-kit",
+        element: <div className="flex w-full h-screen justify-center items-center"><Dropdown array={mock3}/></div>
     },
 ]);
 

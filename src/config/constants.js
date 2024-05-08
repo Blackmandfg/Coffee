@@ -1,5 +1,6 @@
 import tea from '../assets/Images/teagreen.png';
 import flower from "..//assets/Images/Flower.png"
+import {Good, StrelkaVniz} from "../ui-kit/icons";
 export const mock = [
     {
         image: tea,
@@ -87,4 +88,9 @@ export const mock2 = [
         price: '24.50 Lei',
 
     }
+]
+
+export const mock3 = [
+    {id: 0, title: 'Выгодня цена', icon: <Good/>, value: 'favorible_price'},
+    {id: 1, title: 'Дешевле', icon: <StrelkaVniz/>, value: 'less_expensive'},
 ]
