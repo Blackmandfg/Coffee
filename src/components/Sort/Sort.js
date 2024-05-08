@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 const Sort = () => {
     const [selectedValue, setSelectedValue] = useState('');
 
@@ -19,10 +20,10 @@ const Sort = () => {
                     Сортировка по
                 </p>
                 <select value={selectedValue} onChange={handleChange} className="row1button" id="paddingfirstbutton">
-                    <option className="optionsinsort" value="">Выгодная цена</option>
-                    <option className="optionsinsort" value="value1">Дешевле</option>
-                    <option className="optionsinsort" value="value2">Дороже</option>
-                    <option className="optionsinsort" value="value3">Новинки</option>
+                    <option  className='optionsinsort' value="">Выгодная цена</option>
+                    <option  className='optionsinsort'   value="value1">Дешевле</option>
+                    <option className='optionsinsort'   value="value2">Дороже</option>
+                    <option  className='optionsinsort'   value="value3">Новинки</option>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 20.25L12 3.75" stroke="#B5EAEE" strokeLinecap="round"
@@ -36,15 +37,18 @@ const Sort = () => {
             <p className="psortmenu">
                     Показывать по
                 </p>
-                <button className="row1button" id="paddingsecondbutton">24
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <select value={selectedValue} onChange={handleChange} className="row1button" id="paddingsecondbutton">12
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="48">48</option>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                          xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 20.25L12 3.75" stroke="#B5EAEE" strokeLinecap="round"
                       strokeLinejoin="round"/>
                 <path d="M5.25 10.5L12 3.75L18.75 10.5" stroke="#B5EAEE" strokeLinecap="round"
                       strokeLinejoin="round"/>
             </svg>
-        </button>
+        </select>
     </div>
         </div>
 );

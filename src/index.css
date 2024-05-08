@@ -418,7 +418,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     gap: 25px;
-    margin-top: 200px;
+margin-top: 100px;
 }
 
 .podknopki {
@@ -471,6 +471,9 @@ header {
 
 .section2 {
     grid-column: 1/-1;
+    border-top: 1px solid var(--blue-light);
+    margin-top: 100px;
+    
 }
 
 .section2-1 {
@@ -500,6 +503,8 @@ header {
     line-height: 120%;
     color: var(--blue-light);
     background-color: transparent;
+    text-align: center;
+    display: flex;
 }
 
 .p1sec2-1 {
@@ -537,6 +542,19 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+}
+.rowforchoiseitems{
+    grid-column: 1/ -1;
+    position: relative;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.rowdd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .flexrow {
@@ -578,9 +596,14 @@ header {
     font-size: 27px;
     line-height: 120%;
 }
-
+.flexdd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .hotsales {
     margin-top: 200px;
+   
 }
 
 .p2sec3 {
@@ -1304,13 +1327,58 @@ text-align: center;
     margin-top: 50px;
 }
 .optionsinsort{
-    padding: 15px;
+    position: absolute;
+    margin-top: ;
 }
 .row2sortmenu {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-family: var(--Nunito-sans);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--blue-light);
+    align-items: center;
+    background-color: var(--green-light);
+    border: 1px var(--blue-light) solid;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    display: flex;
+   flex-direction: column;
+  
+    font-family: var(--Nunito-sans);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--blue-light);
+    align-items: start;
+    background-color: var(--green-light);
+    border: 1px var(--blue-light) solid;
+width: 300px;
+
+  }
+  
+  .dropdown-option {
+    padding: 15px 50px;
+    border: 1px var(--blue-light) solid;
+    cursor: pointer;
+  }
 
 .psortmenu {
     font-family: var(--Nunito-sans);
@@ -1324,7 +1392,6 @@ text-align: center;
 .thelastsort {
     display: flex;
     flex-direction: row;
-    padding-left: 315px;
     align-items: center;
 }
 
@@ -1363,6 +1430,7 @@ text-align: center;
     align-items: center;
     background-color: var(--green-light);
     border: 1px var(--blue-light) solid;
+    
 }
 
 #paddingfirstbutton {

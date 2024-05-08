@@ -1,10 +1,10 @@
 import React from 'react';
-import {mock2} from "../../config/constants";
+import {mock2} from "..//..//..//..//config/constants";
 
-const RecentlyViewed = () => {
+const likeitems = () => {
     return (
         <div className="hotsales">
-            <h1 className="h1sec2-1">Последнее просмотренное</h1>
+            <h1 className="h1sec2-1">Вам так же может понравиться</h1>
             <div className="options">
             </div>
             <div className="sorthotsale">
@@ -45,4 +45,4 @@ const RecentlyViewed = () => {
     );
 };
 
-export default RecentlyViewed;
+export default likeitems;
