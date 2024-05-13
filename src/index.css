@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Project Colors */
+:root {
+    --green-bg: #273E40;
+    --green-light: #2F4A4C;
+    --blue: #5E9599;
+    --blue-light: #B5EAEE;
+    --black: #2C261F;
+    --white: #FFFFFF;
+    --Nunito-sans:Nunito Sans, serif;
+    --Playfair-Display:Playfair Display, serif;
+}
+
+/* Reset Margins and Paddings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -28,25 +47,6 @@ code {
 
 #root {
     width: 100vw;
-}
-
-/* Project Colors */
-:root {
-    --green-bg: #273E40;
-    --green-light: #2F4A4C;
-    --blue: #5E9599;
-    --blue-light: #B5EAEE;
-    --black: #2C261F;
-    --white: #FFFFFF;
-    --Nunito-sans:Nunito Sans, serif;
-    --Playfair-Display:Playfair Display, serif;
-}
-
-/* Reset Margins and Paddings */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
 }
 
 header {
@@ -1353,7 +1353,6 @@ text-align: center;
     border: 1px var(--blue-light) solid;
     cursor: pointer;
   }
-  
   .dropdown-menu {
     position: absolute;
     display: flex;
