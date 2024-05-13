@@ -1,4 +1,5 @@
 import {useState} from "react";
+import RadioButton from "../RadioButton/RadioButton";
 
 // TODO
 //  1. кастомный radioButton
@@ -35,6 +36,7 @@ const Filter = () => {
                         <span>В наличии</span>
                         <label htmlFor="inStock"><input name="stock" type="radio" id="inStock" value="inStock" />В наличии</label>
                         <label htmlFor="outStock"><input name="stock" type="radio" id="css" value="outStock"/>Нет в наличии</label>
+                        <RadioButton />
                     </div>
                     <div className="to-do">
                         <span>title</span>
