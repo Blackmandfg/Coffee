@@ -1,6 +1,6 @@
 import tea from '../assets/Images/teagreen.png';
 import flower from "..//assets/Images/Flower.png"
-import {Good, StrelkaVniz} from "../ui-kit/icons";
+import {Arrowdown, Arrowup, Good, Plus} from "../ui-kit/icons";
 export const mock = [
     {
         image: tea,
@@ -92,5 +92,12 @@ export const mock2 = [
 
 export const mock3 = [
     {id: 0, title: 'Выгодня цена', icon: <Good/>, value: 'favorible_price'},
-    {id: 1, title: 'Дешевле', icon: <StrelkaVniz/>, value: 'less_expensive'},
+    {id: 1, title: 'Дешевле', icon: <Arrowdown/>, value: 'less_expensive'},
+    {id: 2, title: 'Дороже', icon: <Arrowup/>, value: 'more_expensive'},
+    {id: 3, title: 'Новинки', icon: <Plus/>, value: 'new_products'},
+]
+export const mock4 = [
+    {id:0, title: "12", icon:<Arrowup/>, value: `12`},
+    {id:0, title: "24",icon:<Arrowup/>, value: `24`},
+    {id:0, title: "48",icon:<Arrowup/>, value: `48`}
 ]

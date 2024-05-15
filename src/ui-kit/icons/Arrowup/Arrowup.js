@@ -1,6 +1,6 @@
 import React from "react";
 
-const StrelkaVverh = () =>{
+const Arrowup = () =>{
     return(
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 20.25L12 3.75" stroke="#B5EAEE" strokeLinecap="round" strokeLinejoin="round"/>
@@ -9,4 +9,4 @@ const StrelkaVverh = () =>{
 
     )
 }
-export default StrelkaVverh;
+export default Arrowup;

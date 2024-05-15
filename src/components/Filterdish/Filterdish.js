@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Sort from '../Sort/Sort';
-import { Choise2dish, Choisedish, DropdownButton } from '..';
+import { Choise2dish, Choisedish} from '..';
 const Filterdish = () => {
     const [isHorizontal, setIsHorizontal] = useState(true); // Состояние для отслеживания текущего вида товаров
     const [isActive, setIsActive] = useState(false);
@@ -22,7 +22,6 @@ const Filterdish = () => {
             <div className="sortirovka">
                 <div className="row1sort">
                     <Sort/>
-                    <DropdownButton/>
                     <div className="thelastsort">
                         <p className="psortmenu">
                             Вид товара:

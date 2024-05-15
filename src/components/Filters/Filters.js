@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Choise from "../Choise/Choise";
 import Choise2 from "../Choise2/Choise2";
-import Sort from "../Sort/Sort";
-import { DropdownButton } from '..';
+import Sort from '../Sort/Sort';
+
 const Filters = () => {
     const [isHorizontal, setIsHorizontal] = useState(true); // Состояние для отслеживания текущего вида товаров
     const [isActive, setIsActive] = useState(false);
@@ -19,12 +19,11 @@ const Filters = () => {
     const toggleActive = () => {
         setIsActive(!isActive);
     };
-
         return (
             <div className="sortirovka">
                 <div className="row1sort">
-                    <Sort/>
-                    <DropdownButton/>
+                 <Sort/>
+            
                     <div className="thelastsort">
                         <p className="psortmenu">
                             Вид товара:

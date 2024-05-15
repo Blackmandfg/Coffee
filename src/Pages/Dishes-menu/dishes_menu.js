@@ -14,8 +14,7 @@ const Dishes_menu = () => {
         <ContenterSubHeader2/>
         <Direction/>
         <MenuforDishes/>
-        
-<Footer/>
+        <Footer/>
 </div>
     );
 };

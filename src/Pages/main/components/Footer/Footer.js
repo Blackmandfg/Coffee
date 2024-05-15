@@ -5,7 +5,7 @@ import Footerfinal from "../../../../components/Footerfinal/Footerfinal";
 
 const Footer = () => {
     return (
-        <footer className="section2">
+        <footer className="col-span-full border-t-[1px] border-t-[var(--blue-light)] mt-[100px]">
             <div className="footercontainer">
                 <Footerblock1/>
                <Footerbuttons1/>
